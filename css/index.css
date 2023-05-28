@@ -1,0 +1,33 @@
+@import './header.css';
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.center {
+  max-width: 1230px;
+  margin: 0px auto; 
+  background: #d6d6d6;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+:root {
+  --primary: #FF5A30;
+  --h1-fs: 72px;
+  --h2-fs: 46px;
+
+  --title-color: #1E212C;
+  --inscription-color: #787A80;
+  --text-color: #424551;
+}
