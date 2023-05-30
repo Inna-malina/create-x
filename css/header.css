@@ -1,6 +1,7 @@
 .header-container {
   width: 100%;
-  display: fixed;
+  position: fixed;
+  z-index: 100;
   background: rgb(255, 255, 255);
 }
 
@@ -24,12 +25,10 @@
 
 }
 
-.header-list__item{
+.header-list__item {}
 
-}
-
-.header-list__item:not(:last-child){
-  margin: 0px 40px 0px 0px;  
+.header-list__item:not(:last-child) {
+  margin: 0px 40px 0px 0px;
 }
 
 .header-list__item a {
@@ -44,10 +43,12 @@
   display: flex;
   margin-left: auto;
 }
+
 .header-contacts__icon {
   display: block;
   margin: 0px 12px 0px 0px;
 }
+
 .header-phone__box {
   display: flex;
   margin: 0px 36px 0px 0px;

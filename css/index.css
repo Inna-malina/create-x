@@ -1,5 +1,6 @@
 @import './header.css';
 @import './hero.css';
+@import './buttons.css';
 
 * {
   box-sizing: border-box;
@@ -8,16 +9,18 @@
 
 }
 
+a {
+  display: block;
+  text-decoration: none;
+}
+
 body {
   font-family: 'Ubuntu', sans-serif;
 }
 
-.button-active{
-
-}
 .center {
   max-width: 1230px;
-  margin: 0px auto; 
+  margin: 0px auto;
   /* background: #d6d6d6; */
 }
 
