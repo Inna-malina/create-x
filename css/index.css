@@ -1,4 +1,5 @@
 @import './header.css';
+@import './hero.css';
 
 * {
   box-sizing: border-box;
@@ -11,10 +12,13 @@ body {
   font-family: 'Ubuntu', sans-serif;
 }
 
+.button-active{
+
+}
 .center {
   max-width: 1230px;
   margin: 0px auto; 
-  background: #d6d6d6;
+  /* background: #d6d6d6; */
 }
 
 ul {

@@ -1,0 +1,33 @@
+.hero-slider{
+    position: relative;
+    width: 100%;
+    padding: 220px 0px 120px 0px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/bg-image.jpg");
+	background-size: cover;
+
+}
+
+.hero-slider__description{
+}
+.hero-title{
+    width: 577px;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 130%;
+    letter-spacing: 1px;
+    color: #FFFFFF; 
+}
+.hero-title span{
+    color: #FF5A30;
+}
+.hero-text{}
+
+.hero-buttons__container{}
+.hero-button{}
+.button-active{}
+.hero-slider__counter{}
+.hero-slider__list{}
+.hero-slider__item{}
+.hero-slider__item{}
+.hero-slider__item{}
+.hero-slider__item{}
