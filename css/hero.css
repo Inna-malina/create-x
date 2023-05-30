@@ -9,18 +9,29 @@
 
 .hero-slider__description{
 }
+
 .hero-title{
     width: 577px;
     font-weight: 700;
     font-size: 72px;
     line-height: 130%;
     letter-spacing: 1px;
-    color: #FFFFFF; 
+    color: #FFFFFF;
+    padding: 0px 0px 24px 0px; 
 }
+
 .hero-title span{
     color: #FF5A30;
 }
-.hero-text{}
+
+.hero-text{
+    width: 595px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+    padding: 0px 0px 61px 0px; 
+}
 
 .hero-buttons__container{}
 .hero-button{}
