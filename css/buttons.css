@@ -1,0 +1,31 @@
+.button {
+  padding: 0px 40px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 52px;
+
+}
+
+.hero-button {
+  color: #FFFFFF;
+  border: 1px solid white;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.button-active {
+  color: #FFFFFF;
+  background: #FF5A30;
+  border: 1px solid #FF5A30;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
