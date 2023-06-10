@@ -1,6 +1,9 @@
 @import './header.css';
 @import './hero.css';
 @import './buttons.css';
+@import './video.css';
+@import './our-values.css';
+@import './our-services.css';
 
 * {
   box-sizing: border-box;
@@ -28,6 +31,28 @@ ul {
   list-style-type: none;
   padding: 0px;
 }
+
+.text-container {
+  padding: 0px 0px 60px 0px;
+}
+
+.text-title {
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 130%;
+  color: #1E212C;
+  text-align: center;
+  margin: 0px 0px 24px 0px;
+}
+
+.text-descr {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: #787A80;
+}
+
 
 :root {
   --primary: #FF5A30;
