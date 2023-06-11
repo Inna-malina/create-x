@@ -1,0 +1,35 @@
+.title-explain {
+  margin: 80px 0px 0px 0px;
+}
+
+.eplain-flex {
+  display: flex;
+  justify-content: space-between;
+  width: 652px;
+  margin: 0px auto;
+}
+
+.explain-title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  color: #1E212C;
+}
+
+.explaine-btn {
+  width: 207px;
+  background: #FF5A30;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 52px;
+}

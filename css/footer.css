@@ -1,0 +1,137 @@
+.footer-container {
+  width: 100%;
+  background: url('../images/bg-footer.jpg');
+  padding: 80px 0px 80px 0px;
+}
+
+.footer-form-container {
+  display: block;
+}
+
+.form-flex {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+
+}
+
+.form-box {
+  padding: 0px 0px auto 0px;
+  width: 495px;
+  background: #ffffff;
+  box-shadow: 0px 60px 80px -20px rgba(30, 33, 44, 0.16), 0px 26px 24px -10px rgba(30, 33, 44, 0.1), 0px 12px 10px -6px rgba(30, 33, 44, 0.08), 0px 4px 4px -4px rgba(30, 33, 44, 0.05);
+  border-radius: 4px;
+  padding: 48px 40px;
+}
+
+.form-title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #1E212C;
+}
+
+.form-field {
+  margin: 24px 0px 0px 0px;
+}
+
+.form-field-input {
+  display: block;
+  width: 100%;
+  padding: 11px 16px;
+  background: #F4F5F7;
+  border: 1px solid #D7DADD;
+  border-radius: 4px;
+  outline: none;
+}
+
+.form-field-input::placeholder {
+  color: #9A9CA5;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.form-field-label {
+  display: block;
+  padding: 0px 0px 8px 0px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #424551;
+}
+
+
+.field-checkbox {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.form-field-checkbox[type="checkbox"] {
+  /* display: none; */
+  visibility: hidden;
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+
+.form-field-checkbox::before {
+  content: "";
+  display: block;
+  visibility: visible;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border:1px solid #FF5A30;
+  border-radius: 4px;
+}
+
+.form-field-checkbox[type="checkbox"]:checked::after {
+  content: "✔";
+  display: flex;
+  visibility: visible;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: #ffffff;
+  background: #FF5A30;
+  border: 1px solid #FF5A30;
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.form-field-label-checkbox {
+  padding: 0px 0px 0px 12px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #424551;
+}
+
+
+
+.footer-form-button {
+  cursor: pointer;
+  display: block;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  background: var(--primary);
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 44px;
+  padding: 0px 32px;
+  margin: 24px auto 0px;
+
+}
