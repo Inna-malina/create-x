@@ -1,11 +1,15 @@
 .footer-container {
   width: 100%;
-  background: url('../images/bg-footer.jpg');
-  padding: 80px 0px 80px 0px;
+
+
 }
 
 .footer-form-container {
   display: block;
+  background: url('../images/bg-footer.jpg');
+  padding: 80px 0px 80px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .form-flex {
@@ -87,7 +91,7 @@
   position: absolute;
   width: 16px;
   height: 16px;
-  border:1px solid #FF5A30;
+  border: 1px solid #FF5A30;
   border-radius: 4px;
 }
 
@@ -134,4 +138,148 @@
   padding: 0px 32px;
   margin: 24px auto 0px;
 
+}
+
+/* -------footer-dark-container------- */
+.footer-info-container {
+  background: #1E212C;
+  padding: 80px 0px 80px 0px;
+}
+
+.footer-one-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px 0px 50px 0px;
+}
+
+.logo-sociable-descr {
+  width: 495px;
+}
+
+.logo-sociable-flex {
+  display: flex;
+}
+
+.footer-logo {
+  display: block;
+  padding: 0px 80px 0px 0px;
+}
+
+.footer-sociable-box {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-sociable-box img {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+.footer-description {
+  padding: 24px 0px 0px 0px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+
+.form-subscribe {
+  width: 495px;
+}
+
+.subscribe-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+.form-dark-flex {
+  padding: 24px 0px 24px 0px;
+  display: flex;
+}
+
+.form-dark-input {
+  display: block;
+}
+
+.form-dark-butto {
+  display: block;
+}
+
+.form-dark-description {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+
+.footer-two-flex {
+  display: flex;
+  column-gap: 125px;
+}
+
+.footer-two-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+}
+.head-office{
+  width: 360px;  
+}
+.head-office, .who-we-are, .our-experience {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.who-we-are-text, .our-experience-text {
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+
+.head-office-text span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+
+.head-office-text strong {
+  color: #FFFFFF;
+  opacity: 1;
+  margin: 0px 5px 0px 0px;
+}
+
+.who-we-are {
+  width: 140px;
+}
+
+.our-experience {
+  width: 165px;
+}
+
+.footer-three-box {
+  padding: 60px 0px 0px 0px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2px;
 }
