@@ -6,11 +6,10 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 52px;
-
 }
 
 .hero-button {
-  color: #FFFFFF;
+  color: #ffffff;
   border: 1px solid white;
   border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -20,9 +19,9 @@
 }
 
 .button-active {
-  color: #FFFFFF;
-  background: #FF5A30;
-  border: 1px solid #FF5A30;
+  color: #ffffff;
+  background: #ff5a30;
+  border: 1px solid #ff5a30;
   border-radius: 4px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
